@@ -1,0 +1,92 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+	<Version>12.0f1</Version>
+	<Cluster>
+		<Name>DSP Parameter</Name>
+		<NumElts>15</NumElts>
+		<DBL>
+			<Name>Sampling Frequency</Name>
+			<Val>5000000.00000000000000</Val>
+		</DBL>
+		<EL>
+			<Name>filter type</Name>
+			<Choice>Lowpass</Choice>
+			<Choice>Highpass</Choice>
+			<Choice>Bandpass</Choice>
+			<Choice>Bandstop</Choice>
+			<Val>2</Val>
+		</EL>
+		<DBL>
+			<Name>RF Filter Low Frequency</Name>
+			<Val>450000.00000000000000</Val>
+		</DBL>
+		<DBL>
+			<Name>RF Filter High Frequency</Name>
+			<Val>550000.00000000000000</Val>
+		</DBL>
+		<I32>
+			<Name>RF Filter Taps</Name>
+			<Val>128</Val>
+		</I32>
+		<U32>
+			<Name>window</Name>
+			<Val>1</Val>
+		</U32>
+		<DBL>
+			<Name>RF window parameter</Name>
+			<Val>NaN</Val>
+		</DBL>
+		<EL>
+			<Name>filter type 2</Name>
+			<Choice>Lowpass</Choice>
+			<Choice>Highpass</Choice>
+			<Choice>Bandpass</Choice>
+			<Choice>Bandstop</Choice>
+			<Val>0</Val>
+		</EL>
+		<DBL>
+			<Name>Demodulated Filter Low Frequency</Name>
+			<Val>4000.00000000000000</Val>
+		</DBL>
+		<DBL>
+			<Name>Demodulated Filter HighFrequency</Name>
+			<Val>0.00000000000000</Val>
+		</DBL>
+		<I32>
+			<Name>Demodulated Filter Order</Name>
+			<Val>4</Val>
+		</I32>
+		<I32>
+			<Name>SPAN</Name>
+			<Val>500</Val>
+		</I32>
+		<DBL>
+			<Name>Logarithmic Base</Name>
+			<Val>1.00000000000000E-3</Val>
+		</DBL>
+		<String>
+			<Name>Noise path</Name>
+			<Val>Sub VIs\Digital Signal Processing\Noise.txt</Val>
+		</String>
+    <Array>
+      <Name>Work position parameter</Name>
+      <Dimsize>4</Dimsize>
+      <I32>
+        <Name>FirstStart</Name>
+        <Val>0</Val>
+      </I32>
+      <I32>
+        <Name>FirstEnd</Name>
+        <Val>460000</Val>
+      </I32>
+      <I32>
+        <Name>SecondStart</Name>
+        <Val>600000</Val>
+      </I32>
+      <I32>
+        <Name>SecondEnd</Name>
+        <Val>1050000</Val>
+      </I32>
+    </Array>
+  </Cluster>
+</LVData>

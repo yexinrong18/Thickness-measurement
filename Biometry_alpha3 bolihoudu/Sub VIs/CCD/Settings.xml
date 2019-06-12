@@ -1,0 +1,20 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+	<Version>12.0f1</Version>
+	<Cluster>
+		<Name>CCD Configuration</Name>
+		<NumElts>2</NumElts>
+		<Refnum>
+			<Name>Session In</Name>
+			<RefKind>Generic Tag</RefKind>
+			<RefType>IMAQdx</RefType>
+			<Val>cam0</Val>
+		</Refnum>
+		<Refnum>
+			<Name>New Image</Name>
+			<RefKind>Generic Tag By Ref Flatten</RefKind>
+			<RefType>IMAQImage</RefType>
+			<Val>0x00000000</Val>
+		</Refnum>
+	</Cluster>
+</LVData>

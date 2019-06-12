@@ -1,0 +1,69 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+	<Version>15.0f1</Version>
+	<Cluster>
+		<Name>Biometry Configuration</Name>
+		<NumElts>11</NumElts>
+		<I32>
+			<Name>Interference Width</Name>
+			<Val>5000</Val>
+		</I32>
+		<DBL>
+			<Name>Interference Threshold</Name>
+			<Val>2.00000000000000</Val>
+		</DBL>
+		<I32>
+			<Name>Cornea Len Division</Name>
+			<Val>160000</Val>
+		</I32>
+		<String>
+			<Name>Correction Data 1st Path</Name>
+			<Val>Sub VIs\Boimetry Processing\Correction Data 1st.txt</Val>
+		</String>
+		<DBL>
+			<Name>1st_Start_Position</Name>
+			<Val>70.57400000000000</Val>
+		</DBL>
+		<String>
+			<Name>Correction Data 2nd Path</Name>
+			<Val>Sub VIs\Boimetry Processing\Correction Data 2nd.txt</Val>
+		</String>
+		<DBL>
+			<Name>2nd_Start_Position</Name>
+			<Val>100.70000000000000</Val>
+		</DBL>
+		<DBL>
+			<Name>Index Corneal</Name>
+			<Val>1.37500000000000</Val>
+		</DBL>
+		<DBL>
+			<Name>Index Water</Name>
+			<Val>0.00000000000000</Val>
+		</DBL>
+		<DBL>
+			<Name>Index Len</Name>
+			<Val>0.00000000000000</Val>
+		</DBL>
+		<Cluster>
+			<Name>Working Position</Name>
+			<NumElts>4</NumElts>
+			<I32>
+				<Name>FirstStart</Name>
+				<Val>0</Val>
+			</I32>
+			<I32>
+				<Name>FirstEnd</Name>
+				<Val>460000</Val>
+			</I32>
+			<I32>
+				<Name>SecondStart</Name>
+				<Val>600000</Val>
+			</I32>
+			<I32>
+				<Name>SecondEnd</Name>
+				<Val>1050000</Val>
+			</I32>
+		</Cluster>
+	</Cluster>
+
+</LVData>
